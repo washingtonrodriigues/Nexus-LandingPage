@@ -1,0 +1,37 @@
+.animated_btn {
+  box-shadow: 0px 0px 20px 5px #1269b9;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-name: pulse, changeColor;
+}
+
+.animated_btn:hover {
+  background-color: #2ecc71 !important;
+}
+
+/* Definindo a animação para a sombra */
+@keyframes pulse {
+  0% {
+    box-shadow: 0px 0px 20px 5px #1269b9;
+  }
+  50% {
+    box-shadow: 0px 0px 20px 10px #1269b9;
+  }
+  100% {
+    box-shadow: 0px 0px 20px 5px #1269b9;
+  }
+}
+
+/* Definindo a animação para a mudança de cor de fundo */
+@keyframes changeColor {
+  0% {
+    background-color: #3daed3;
+  }
+  50% {
+    background-color: #1269b9; /* Cor alternativa */
+  }
+  100% {
+    background-color: #3daed3;
+  }
+}

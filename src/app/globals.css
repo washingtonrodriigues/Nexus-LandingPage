@@ -30,4 +30,36 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .background-header {
+    background-image: url('/bg-header.png');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 90vh;
+  }
+
+  .background-third-section {
+    background-image: url('/bg-third-section.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .content {
+    z-index: 1; /* Certifique-se de que o conteúdo fique na frente da imagem de fundo */
+  }
+
+  .washington-img {
+    filter: drop-shadow(15px 0px 5px #08549b);
+  }
+
+  .overhidden {
+    overflow-x: hidden !important;
+  }
+}
+
+section {
+  padding: 50px 0;
 }

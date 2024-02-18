@@ -17,7 +17,7 @@ const Home = () => {
     <div className="overhidden">
       <Header />
       <main>
-        <TypeBot />
+        {/* <TypeBot /> */}
         <FirstSection />
         <SecondSection />
         <ThirdSection />

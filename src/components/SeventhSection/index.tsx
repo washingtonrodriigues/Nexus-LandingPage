@@ -8,7 +8,7 @@ const SeventhSection = () => {
           src="/washington-family.jpg"
           alt="Minha família"
           width={600}
-          height={100}
+          height={400}
         />
       </div>
       <div className="text-black flex flex-col gap-3 font-poppins lg:w-[500px]">

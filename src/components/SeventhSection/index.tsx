@@ -13,8 +13,8 @@ const SeventhSection = () => {
       </div>
       <div className="text-black flex flex-col gap-3 font-poppins lg:w-[500px]">
         <h2 className="text-[1.5rem] text-center lg:text-left lg:text-[2.2rem]">
-          Conheça quem está à frente da{' '}
-          <strong className="text-[#235581]">Nexus Digital</strong>
+          Conheça quem está à frente da
+          <strong className="text-[#235581]"> Nexus Digital</strong>
         </h2>
         <p className="text-base text-center lg:text-left lg:text-[1.1rem]">
           Washington Rodrigues, 26 anos, natural de Aracaju-SE e casado com

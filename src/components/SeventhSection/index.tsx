@@ -24,7 +24,7 @@ const SeventhSection = () => {
         </p>
         <div className="text-center lg:text-left mt-4 lg:mt-0">
           <p className="italic text-sm lg:text-[1.1rem]">
-            "O nosso negócio é fazer crescer o seu!"
+            {'O nosso negócio é fazer crescer o seu!'}
           </p>
           <span className="text-[#235581] text-sm lg:text-base">
             Washington Rodrigues

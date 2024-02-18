@@ -8,7 +8,7 @@ const FifthSection = () => {
           Os <span className="text-[#3daed3]">anúncios online</span> servem para
           o meu negócio?
         </h1>
-        <p className="text-base lg:text-[1.1rem]">
+        <p className="text-base px-5 lg:px-0 lg:text-[1.1rem]">
           Sim, o tráfego pago serve para qualquer pessoa ou negócio, seja você:
         </p>
       </div>

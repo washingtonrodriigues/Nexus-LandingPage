@@ -2,7 +2,7 @@ import Card3 from '@/components/ui/Card3/card3';
 
 const FourthSection = () => {
     return (<section className="bg-[#E4E4E4] flex flex-col lg:flex-row justify-evenly gap-[30px] lg:gap-0 items-center">
-        <div className="lg:w-[600px] text-black font-poppins flex flex-col gap-5">
+        <div className="lg:w-[600px] px-5 lg:px-0 text-black font-poppins flex flex-col gap-5">
             <h2 className="text-[1.5rem] text-center lg:text-left lg:text-[2.2rem]">
                 Qual é o <strong>momento ideal</strong> para a nossa parceria?
             </h2>

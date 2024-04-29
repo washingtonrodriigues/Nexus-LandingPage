@@ -24,10 +24,7 @@ const Header = () => {
           produtos ou serviços. Nós podemos te ajudar a triplicar seu
           faturamento e evitar dores de cabeça.
         </p>
-        <Button
-          onClick={() => setShowTypebot(true)}
-          text="Garantir oportunidade"
-        />
+        <Button onClick={() => setShowTypebot(true)} text="Quero vender mais" />
       </div>
       <div className="content lg:relative max-w-[100vw] pb-[220px] lg:pb-0 lg:w-[600px] lg:mb-7 absolute z-10">
         <Image

@@ -17,10 +17,7 @@ const EighthSection = () => {
           <span className="text-[#3daed3]">melhor fase</span> do seu negócio
         </p>
       </div>
-      <Button
-        onClick={() => setShowTypebot(true)}
-        text="Garantir Oportunidade"
-      />
+      <Button onClick={() => setShowTypebot(true)} text="Quero vender mais" />
       <Popup
         typebot="my-typebot-auarewe"
         isOpen={showTypebot}

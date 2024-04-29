@@ -31,7 +31,7 @@ const SixthSection = () => {
       </div>
       <Button
         onClick={() => setShowTypebot(true)}
-        text="Entre em contato conosco"
+        text="Quero vender mais"
         style={{ margin: '0 20px' }}
       />
       <Popup

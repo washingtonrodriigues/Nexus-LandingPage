@@ -14,9 +14,7 @@ const Header = () => {
           <span className="text-[#3daed3] font-bold">
             aumentar seu número de vendas
           </span>{' '}
-          com anúncios online e{' '}
-          <span className="text-[#3daed3] font-bold">vendas</span> de forma
-          automatizada,{' '}
+          com anúncios online e de forma automatizada,{' '}
           <span className="text-[#3daed3] font-bold">
             sem precisar de indicação
           </span>

@@ -3,7 +3,6 @@
 import { FaFire } from 'react-icons/fa';
 import styles from './styles.module.css';
 import Link from 'next/link';
-import TypeBot from '@/components/TypeBot/typebot';
 
 const Button = ({ text, style, onClick }: any) => {
   return (

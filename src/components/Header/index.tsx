@@ -10,9 +10,13 @@ const Header = () => {
     <header className="background-header w-[100vw] lg:flex-row flex flex-col-reverse justify-start px-10 lg:px-8 items-center lg:justify-between">
       <div className=" relative lg:from-transparent lg:to-transparent w-[100vw] px-5 lg:px-0 z-20 bg-gradient-to-t from-black via-[#032c52d2] to-[#233d570a] flex flex-col pb-5 lg:pb-0 gap-5 lg:w-[700px]">
         <h1 className="font-poppins text-[1.5rem] text-center lg:text-left lg:text-[2.3rem]">
-          Aumente de <span className="text-[#3daed3] font-bold">10 a 40</span> o
-          seu número de <span className="text-[#3daed3] font-bold">vendas</span>{' '}
-          de forma automatizada,{' '}
+          Está vendendo pouco? Eu posso te ajudar{' '}
+          <span className="text-[#3daed3] font-bold">
+            aumentar seu número de vendas
+          </span>{' '}
+          com anúncios online e{' '}
+          <span className="text-[#3daed3] font-bold">vendas</span> de forma
+          automatizada,{' '}
           <span className="text-[#3daed3] font-bold">
             sem precisar de indicação
           </span>

@@ -2,7 +2,7 @@ import Card2 from '@/components/ui/Card2/card2';
 
 const SecondSection = () => {
   return (
-    <section className="bg-gradient-to-r flex flex-col items-center gap-[50px] h-auto from-[#2584a3] to-[#075772]">
+    <section className="bg-[#000] my-[8rem] flex flex-col items-center gap-[50px] h-auto">
       <div className="text-center font-poppins w-full flex flex-col gap-5">
         <h2 className="text-[1.5rem] lg:text-[2.2rem]">
           Evite{' '}

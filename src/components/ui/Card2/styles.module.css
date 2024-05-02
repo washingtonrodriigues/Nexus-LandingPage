@@ -1,0 +1,6 @@
+.card {
+  font-family: 'Poppins', sans-serif;
+  width: 350px;
+  border-bottom: solid 2px transparent; /* Deixa a borda inferior transparente */
+  border-image: linear-gradient(to right, #3daed3, transparent) 1 100%; /* Gradiente linear para a borda */
+}

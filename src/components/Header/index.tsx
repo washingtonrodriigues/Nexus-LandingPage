@@ -28,7 +28,7 @@ const Header = () => {
         <Button onClick={() => setShowTypebot(true)} text="Quero vender mais" />
       </div>
       <Image
-        src="/newbgheader.png"
+        src="/bgheaderdesktop.png"
         width={1440}
         height={0}
         sizes=""
@@ -36,7 +36,7 @@ const Header = () => {
         className="pt-16 hidden lg:block"
       />
       <Image
-        src="/headerbannermobile.png"
+        src="/bgheadermobile.png"
         width={600}
         height={0}
         sizes=""

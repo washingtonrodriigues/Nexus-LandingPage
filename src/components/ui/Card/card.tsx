@@ -1,18 +1,12 @@
 import Image from 'next/image';
-import styles from './styles.module.css';
 
-const Card = ({ src, text }: any) => {
+const Card = ({ src, text }: { src: string; text: string }) => {
   return (
-    <div
-      className={`w-[300px] lg:w-[350px] h-[220px] transition duration-300 hover:scale-110 flex flex-col lg:flex-row justify-between items-center lg:gap-5 bg-[#181818] rounded-r-lg text-white ${styles.box_shadow}`}
-    >
-      <span className="bg-[#3daed3] h-[5px] lg:h-full rounded-l-lg w-[100px] lg:w-[20px]"></span>
-      <div className="flex flex-col justify-center mb-5 lg:mb-0 lg:items-start items-center gap-5">
-        <Image src={src} alt="" width={80} height={0} />
-        <p className="text-center lg:text-left font-poppins lg:text-lg text-base">
-          {text}
-        </p>
-      </div>
+    <div className="bg-black border border-solid border-[#3daed3] w-[280px] h-[280px] flex flex-col justify-center items-center lg:block lg:h-[350px] lg:w-[350px] rounded-[20px] py-14 px-8 hover:scale-105 transition-all duration-300">
+      <Image src={src} alt="" width={90} height={0} className="h-[80px] mb-8" />
+      <p className="text-center lg:text-left font-poppins lg:text-lg text-base">
+        {text}
+      </p>
     </div>
   );
 };

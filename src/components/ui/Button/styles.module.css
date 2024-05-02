@@ -6,9 +6,9 @@
   animation-name: pulse, changeColor;
 }
 
-.animated_btn:hover {
-  background-color: #2ecc71 !important;
-}
+/* .animated_btn:hover {
+  background-color: #064d8f !important;
+} */
 
 /* Definindo a animação para a sombra */
 @keyframes pulse {

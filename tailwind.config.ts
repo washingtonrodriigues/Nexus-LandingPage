@@ -11,6 +11,7 @@ const config: Config = {
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
+        franklin: ['Libre Franklin', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

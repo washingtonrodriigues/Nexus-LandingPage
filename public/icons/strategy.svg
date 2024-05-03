@@ -9,28 +9,28 @@
 </g>
 <defs>
 <linearGradient id="paint0_linear_111_5" x1="77.2428" y1="1.51306" x2="61.5428" y2="-0.359938" gradientUnits="userSpaceOnUse">
-<stop stop-color="#087C82"/>
-<stop offset="0.855" stop-color="#087C82" stop-opacity="0"/>
+<stop stop-color="#1293C9"/>
+<stop offset="0.855" stop-color="#1293C9" stop-opacity="0"/>
 </linearGradient>
 <linearGradient id="paint1_linear_111_5" x1="100.222" y1="51.313" x2="93.5952" y2="60.762" gradientUnits="userSpaceOnUse">
-<stop offset="0.268" stop-color="#087C82"/>
+<stop offset="0.268" stop-color="#1293C9"/>
 <stop offset="0.69" stop-color="#087C82" stop-opacity="0"/>
 </linearGradient>
 <linearGradient id="paint2_linear_111_5" x1="66.871" y1="76.3241" x2="51.661" y2="80.1011" gradientUnits="userSpaceOnUse">
-<stop stop-color="#087C82"/>
-<stop offset="1" stop-color="#087C82" stop-opacity="0"/>
+<stop stop-color="#1293C9"/>
+<stop offset="1" stop-color="#1293C9" stop-opacity="0"/>
 </linearGradient>
 <linearGradient id="paint3_linear_111_5" x1="51.4159" y1="81.6361" x2="7.68786" y2="66.7841" gradientUnits="userSpaceOnUse">
-<stop offset="0.502" stop-color="#02AFB7"/>
-<stop offset="1" stop-color="#02AFB7" stop-opacity="0"/>
+<stop offset="0.502" stop-color="#3CACDC"/>
+<stop offset="1" stop-color="#3CACDC" stop-opacity="0"/>
 </linearGradient>
 <linearGradient id="paint4_linear_111_5" x1="4.03388" y1="14.3511" x2="59.6059" y2="10.2361" gradientUnits="userSpaceOnUse">
-<stop offset="0.383" stop-color="#02AFB7"/>
-<stop offset="0.811" stop-color="#02AFB7" stop-opacity="0"/>
+<stop offset="0.383" stop-color="#3CACDC"/>
+<stop offset="0.811" stop-color="#3CACDC" stop-opacity="0"/>
 </linearGradient>
 <linearGradient id="paint5_linear_111_5" x1="10.3378" y1="24.9751" x2="24.1568" y2="54.6721" gradientUnits="userSpaceOnUse">
-<stop offset="0.176" stop-color="#02AFB7"/>
-<stop offset="1" stop-color="#02AFB7" stop-opacity="0"/>
+<stop offset="0.176" stop-color="#3CACDC"/>
+<stop offset="1" stop-color="#3CACDC" stop-opacity="0"/>
 </linearGradient>
 <clipPath id="clip0_111_5">
 <rect width="113" height="84" fill="white"/>

@@ -1,35 +1,31 @@
 import { useState } from 'react';
 import Button from '../ui/Button/button';
 import { Popup } from '@typebot.io/nextjs';
+import Image from 'next/image';
 
 const ThirdSection = () => {
   const [showTypebot, setShowTypebot] = useState(false);
 
   return (
-    <section className="background-third-section flex flex-col gap-5 items-center">
-      <h2 className="text-[1.5rem] text-center px-5 lg:px-0 lg:text-[2.2rem] font-bold">
-        Estamos comprometidos em te fazer{' '}
-        <span className=" text-[#3daed3]">vender mais</span>
-      </h2>
-      <p className="lg:w-[800px] text-center text-base px-5 lg:px-0 lg:text-[1.3rem]">
-        Com os cuidados e estratégias de{' '}
-        <span className=" text-[#3daed3]">profissionais qualificados</span>, a
-        tarefa de atrair clientes para o seu negócio se torna muito mais fácil.
-      </p>
-      <p className="lg:w-[800px] text-center text-base px-5 lg:px-0 lg:text-[1.3rem]">
-        Além de poupar tempo, você conseguirá um público superaquecido,
-        aumentando suas chances de fechar negócio, seja{' '}
-        <span className=" text-[#3daed3]">lotando sua agenda</span>
-        de atendimentos ou{' '}
-        <span className=" text-[#3daed3]">vendendo ainda mais</span> os seus
-        produtos ou serviços.
-      </p>
-      <Button onClick={() => setShowTypebot(true)} text="Quero vender mais!" />
-      <Popup
-        typebot="my-typebot-auarewe"
-        isOpen={showTypebot}
-        onClose={() => setShowTypebot(false)}
+    <section className="w-[90%] bg-gradient-to-r from-[#3daede] via-[#1a78a1]  to-[#076087] mx-auto rounded-3xl relative text-center font-franklin px-16">
+      <Image
+        className="absolute inset-0 mx-auto top-[-3rem]"
+        src="/nexusshortlogo.png"
+        alt="Nexus Gestão de Tráfego"
+        width={100}
+        height={0}
+        sizes=""
       />
+      <h2 className="text-[1.7rem] font-semibold my-4">
+        Se você sente que ainda não vende como deveria, então você provavelmente
+        está perdendo dinheiro.
+      </h2>
+      <p>
+        Às vezes, você só precisa das estratégias certas para destravar o seu
+        negócio e começar a vender mais. Para isso, vocês tem duas opções:
+        aprender e fazer por conta própria, ou confiar em alguém com experiência
+        e que já sabe o caminho certo a seguir para ter bons resultados.
+      </p>
     </section>
   );
 };

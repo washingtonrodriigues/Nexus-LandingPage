@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const FirstSection = () => {
   return (
-    <section className="h-auto my-[10rem] bg-[#000] flex flex-col justify-center items-center lg:gap-16">
+    <section className="h-auto mt-[6rem] lg:mt-[10rem] bg-[#000] flex flex-col justify-center items-center lg:gap-16">
       <div className="text-[1.5rem] px-4 lg:px-0 lg:text-[2.5rem] text-center font-poppins">
         <h2>Melhore o seu marketing e</h2>
         <p className="bg-gradient-to-r from-[#256B9C] via-[#3daed3] to-indigo-400 inline-block text-transparent bg-clip-text font-bold">
@@ -11,7 +11,7 @@ const FirstSection = () => {
         </p>
       </div>
       <div className="flex relative py-16 lg:py-32 px-8  flex-col lg:flex-row justify-center items-center gap-[50px]">
-        <div className="z-[9999] flex flex-wrap gap-16">
+        <div className="z-[9999] flex flex-wrap gap-16 justify-center">
           <Card
             src="/icons/strategy.svg"
             text="Estratégias validadas que irão te ajudar a vender muito mais."
